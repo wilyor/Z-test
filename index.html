@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/general.css">
+        <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+        <!--lo siguiente lo usé para traer fuentes y usarlas en luagr de imágenes y de estamanera aligerar el peso de la página al cargar-->
+        <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!--Scripts para el DOM-->
+        <script src="JS/interacciones.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="#"><img id= "img-header" src="img/MainLogo.png" alt="Logo Header"></a>
+            <div id="menu-responsive-btn"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <nav id= "menu-header" class="embebbed-div">
+                <div id= "hdr-services"style="display: inline-block">
+                    
+                    <a class="link" href="#">SERVICES</a> 
+                    <div id= "hdr-services-subMenu" class="submenu-superior">
+                        <div class ="triangle-up"></div>
+                        <a class="sms_item" href="#">USER EXPERIENCE</a>
+                        <a class="sms_item" href="#">GRAPHIC DESIGN</a>
+                        <a class="sms_item" href="#">DEVELOPMENT</a>
+                    </div>
+                </div>
+                <div id= "hdr-software" style="display: inline-block">
+                    <a class="link" href="#">SOFTWARE</a>
+                    <div id= "hdr-software-subMenu" class="submenu-superior">
+                        <div class ="triangle-up"></div>
+                        <a class="sms_item" href="#"> PLANNER</a>
+                        <a class="sms_item" href="#">INSIGHT</a> 
+                        <a class="sms_item" href="#">FINANCE</a> 
+                        <a class="sms_item" href="#">TBD</a>
+                        <a class="sms_item" href="#"> SUPPORT</a>  
+                    </div>
+                </div>
+                <a class="link" href="#">CONNECT WITH US</a>
+                <div id= "search-bar" class="embebbed-div">
+                    <input id="search-input" type="text" placeholder="Search">
+                    <button id= "search-button"><i class="fa fa-search"></i></button>
+                </div>
+            </nav>
+        </header>
+        
+        <div id="menu-responsive">
+            <p class="mainMenu-Li">
+                <a  href="#"><b>SERVICES</b></a><br>
+                <a class="menu_item" href="#">&nbsp User Experience</a><br>
+                <a class="menu_item" href="#">&nbsp Graphic Design</a><br>
+                <a class="menu_item" href="#">&nbsp Development</a><br>
+            </p>
+            <p class="mainMenu-Li">
+                <a href="#"><b>SOFTWARE</b></a><br>
+                <a class="menu_item" href="#">&nbsp Planner</a>  <br>  
+                <a class="menu_item" href="#">&nbsp Insight</a> <br>  
+                <a class="menu_item" href="#">&nbsp Finance</a>  <br>  
+                <a class="menu_item" href="#">&nbsp TBD</a>   <br>
+                <a class="menu_item" href="#">&nbsp Support</a>  <br> 
+            </p>
+            <p class="mainMenu-Li">
+                <a href="#"><b>CONNECT WITH US</b></a>
+            </p>
+        </div>
+        
+        <div id="carrusel">
+                <ul id="img_slider">
+                    <li id="carr_img_1" class="carrusel-item carrusel_visible"><a href="#"><img src="img/carrusel/carrusel_1.png" alt="primera imagen"></a></li>
+                    <li id="carr_img_2" class="carrusel-item carrusel_hidden"><a href="#"></a><img src="img/carrusel/carrusel_2.png" alt="primera imagen"></a></li>
+                    <li id="carr_img_3" class="carrusel-item carrusel_hidden"><a href="#"></a><img src="img/carrusel/carrusel_3.png" alt="primera imagen"></a></li>
+                </ul>
+            <div id="left-arrow">
+                <img src="img/carrusel/left_arrow.png">
+            </div>
+            <div id="right-arrow">
+                <img src="img/carrusel/right_arrow.png">
+            </div>
+        </div>
+        
+        <nav id= "second-menu">
+            <div id= "menu-items"></div>
+            <a class="link" href="#">AGENCIES</a>
+            <a class="link" href="#">PUBLISHERS</a>
+            <a class="link" href="#">ABOUT US</a>
+            <a class="link" href="#">LEARNING CENTER</a>
+            <a class="link" href="#">BLOG</a>
+            <a class="link" href="#">NEWS</a>
+            <div id="social-links" class="embebbed-div normalFont" >Follow us: 
+                <li class="social-btn"><i class="fa fa-twitter"></i></li>
+                <li class="social-btn"><i class="fa fa-facebook"></i></li>
+                <li class="social-btn"><i class="fa fa-youtube"></i></li>
+                <li class="social-btn"><i class="fa fa-linkedin-square"></i></li>
+                <li class="social-btn"><i class="fa fa-google-plus"></i></li>
+                <li class="social-btn"><i class="fa fa-rss"></i></li>
+                
+            </div>
+        </nav>
+        
+        <div id= "images_container">
+            <a href="#"><div class="images-section">
+                <h3>Testimonials</h3>
+                <img src="img/pic_1.png" alt="women Picture">
+                <p class="img-description"><b>ANN CHARLES</b> CEO, BRANDFOG</p>
+                </div></a>
+            <a href="#"><div class="images-section middle-img">
+                <h3>See It</h3>
+                <img src="img/pic_2.png" alt="charts Picture">
+                <p class="img-description"><b>Centro Planner</b> is the first in a family  of products  being developed  to help  accelerate  digital ad campaign execution.</p>
+                </div></a>
+            <a href="#"><div class="images-section">
+                <h3>Try it</h3>
+                <img src="img/pic_3.png" alt="charts Picture">
+                <p class="img-description">Sed quis ligula est, vitae suscipit sem. Integer  orci tortor,  tempus eget rhoncus quis, vehicula et elit. Mauris iaculis scelerisque lacus.</p>
+                </div></a>
+        </div>
+        
+       
+        <footer>
+            <div id="footer-menu">
+                <div id ="UpperMenu">
+                    <div class="FMenu-section FM-titles">Services</div>
+                    <div class="FMenu-section FM-titles">Software</div>
+                    <div class="FMenu-section FM-titles">Publishers</div>
+                    <div class="FMenu-section FM-titles">Learning Center</div>
+                    <div class="FMenu-section FM-titles">Why centro</div>
+                    <div class="FMenu-section FM-titles">More centro</div>
+                    <hr>
+                </div>
+                <div id="LowerMenu">
+                    <div class="FMenu-section FM-content">
+                        <li><a class="link-Footer" href="#">Media Strategy</a></li>
+                        <li><a class="link-Footer" href="#">Media Planning &amp; Buying</a></li>
+                        <li><a class="link-Footer" href="#">Campaign Management &amp; Analysis</a></li>
+                        <li><a class="link-Footer" href="#">Contract Fulfillment &amp; Billing</a></li>
+                    </div>
+                    <div class="FMenu-section FM-content">
+                        <li><a class="link-Footer" href="#">Planner</a></li>
+                        <li><a class="link-Footer" href="#">Insight</a></li>
+                        <li><a class="link-Footer" href="#">Finance</a></li>
+                        <li><a class="link-Footer" href="#">TBD</a></li>
+                        <li><a class="link-Footer" href="#">RTB</a></li>
+                        <li><a class="link-Footer" href="#">Support</a></li>
+                    </div>
+                    <div class="FMenu-section FM-content">
+                        <li><a class="link-Footer" href="#">Brand Exchange</a></li>
+                        <li><a class="link-Footer" href="#">Publisher Logistics</a></li>
+                        <li><a class="link-Footer" href="#">Become a Publisher Partner</a></li>
+                    </div>
+                    <div class="FMenu-section FM-content">
+                        <li><a class="link-Footer" href="#">Case Studies</a></li>
+                        <li><a class="link-Footer" href="#">White Papers</a></li>
+                        <li><a class="link-Footer" href="#">Creative Showcase</a></li>
+                        <li><a class="link-Footer" href="#">Video Library</a></li>
+                        <li><a class="link-Footer" href="#">Blog</a></li>
+                    </div>
+                    <div class="FMenu-section FM-content">
+                        <li><a class="link-Footer" href="#">SubPage 1</a></li>
+                        <li><a class="link-Footer" href="#">SubPage 2</a></li>
+                        <li><a class="link-Footer" href="#">SubPage 3</a></li>
+                        <li><a class="link-Footer" href="#">SubPage 4</a></li>
+                    </div>
+                    <div class="FMenu-section FM-content">
+                        <li><a class="link-Footer" href="#">About</a></li>
+                        <li><a class="link-Footer" href="#">News</a></li>
+                        <li><a class="link-Footer" href="#">Careers</a></li>
+                        <li><a class="link-Footer" href="#">Privacy Policy</a></li>
+                        <li><a class="link-Footer" href="#">Connect with us</a></li>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-menu-responsive">
+                <div class="FMenu-section FM-titles">Services
+                    <div id="services-subMenu" class="FM-content">
+                        <li><a class="link-Footer" href="#">Media Strategy</a></li>
+                        <li><a class="link-Footer" href="#">Media Planning &amp; Buying</a></li>
+                        <li><a class="link-Footer" href="#">Campaign Management &amp; Analysis</a></li>
+                        <li><a class="link-Footer" href="#">Contract Fulfillment &amp; Billing</a></li>
+                    </div>
+                </div>
+                    <div class="FMenu-section FM-titles">Software
+                        <div id="software-subMenu" class="FM-content">
+                            <li><a class="link-Footer" href="#">Planner</a></li>
+                            <li><a class="link-Footer" href="#">Insight</a></li>
+                            <li><a class="link-Footer" href="#">Finance</a></li>
+                            <li><a class="link-Footer" href="#">TBD</a></li>
+                            <li><a class="link-Footer" href="#">RTB</a></li>
+                            <li><a class="link-Footer" href="#">Support</a></li>
+                        </div>
+                    </div>
+                    <div class="FMenu-section FM-titles">Publishers
+                        <div id="publishers-subMenu" class="FM-content">
+                            <li><a class="link-Footer" href="#">Brand Exchange</a></li>
+                            <li><a class="link-Footer" href="#">Publisher Logistics</a></li>
+                            <li><a class="link-Footer" href="#">Become a Publisher Partner</a></li>
+                        </div>
+                    </div>
+                    <div class="FMenu-section FM-titles">Learning Center
+                        <div id="lCenter-subMenu" class="FM-content">
+                            <li><a class="link-Footer" href="#">Case Studies</a></li>
+                            <li><a class="link-Footer" href="#">White Papers</a></li>
+                            <li><a class="link-Footer" href="#">Creative Showcase</a></li>
+                            <li><a class="link-Footer" href="#">Video Library</a></li>
+                            <li><a class="link-Footer" href="#">Blog</a></li>
+                        </div>
+                    </div>
+                    <div class="FMenu-section FM-titles">Why centro
+                        <div id="why-subMenu" class="FM-content">
+                            <li><a class="link-Footer" href="#">SubPage 1</a></li>
+                            <li><a class="link-Footer" href="#">SubPage 2</a></li>
+                            <li><a class="link-Footer" href="#">SubPage 3</a></li>
+                            <li><a class="link-Footer" href="#">SubPage 4</a></li>
+                        </div>
+                    </div>
+                    <div class="FMenu-section FM-titles">More centro
+                        <div id="more-subMenu" class="FM-content">
+                            <li><a class="link-Footer" href="#">About</a></li>
+                            <li><a class="link-Footer" href="#">News</a></li>
+                            <li><a class="link-Footer" href="#">Careers</a></li>
+                            <li><a class="link-Footer" href="#">Privacy Policy</a></li>
+                            <li><a class="link-Footer" href="#">Connect with us</a></li>
+                        </div>    
+                    </div>
+                </div>
+            <div id="copy">&copy;Copyright 2016 - All rights reserved</div>
+        </footer>
+    </body>
+</html>

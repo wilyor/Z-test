@@ -1,0 +1,18 @@
+#carrusel ul li{
+    list-style: none;
+}
+
+#carrusel ul{
+   max-width: 100%;
+}
+
+#carrusel{
+    overflow: hidden;
+}
+
+.carrusel_hidden{
+    display: none;
+}
+.carrusel_visible{
+    display: block;
+}
