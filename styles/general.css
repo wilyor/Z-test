@@ -284,12 +284,12 @@ footer{
     color: #004964;
     display: inline-block;
     font-size: 18px;
-    height: 22px;
+    /*height: 22px;*/
     margin: 0px 2px;
     padding-top: 3px;
     cursor: pointer;
     text-align: center;
-    width: 25px; 
+    min-width:  25px;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -298,6 +298,8 @@ footer{
 .social-btn:hover{
     background-color: #32515d;
     color: white;
+    border: solid;
+    font-size: 2em;
 }
 
 
